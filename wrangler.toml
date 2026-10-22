@@ -1,21 +1,21 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "quick-release"
+name = "q2r"
+main = "workers-site/index.js"
 compatibility_date = "2024-09-23"
-pages_build_output_dir = "dist"
 account_id = "962ddc3d77cb9f2aef9a951bf1439a79"
 
-# Cloudflare Pages Build Configuration
+# Static site assets
 [site]
 bucket = "./dist"
 
-# Environment variables for Cloudflare Edge Functions
+# Environment variables
 [vars]
 ENVIRONMENT = "production"
-APP_NAME = "Quick Release"
+APP_NAME = "Q2R"
 SUPPORT_EMAIL = "duplexinterface@outlook.com"
 R2_BUCKET_NAME = "quick-release-vault"
 
-# R2 Bucket binding for serverless link registry, vector QR vault, and telemetry
+# R2 Bucket binding
 [[r2_buckets]]
 binding = "QUICK_RELEASE_BUCKET"
 bucket_name = "quick-release-vault"
