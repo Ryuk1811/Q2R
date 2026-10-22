@@ -1,0 +1,6 @@
+{
+  "name": "Quick Release — Modern Bento QR Studio & Cloud Relay Router",
+  "description": "Q2R (Quick 2 Redirect) is a free, sovereign vector QR studio and instant privacy redirect engine. Create professional QR codes across 10 standards and deploy permanent short links.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

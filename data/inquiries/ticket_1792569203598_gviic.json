@@ -1,0 +1,11 @@
+{
+  "ticketId": "ticket_1792569203598_gviic",
+  "receiptTimestamp": "2026-10-21T07:53:23.598Z",
+  "senderName": "Alex",
+  "senderEmail": "alex@example.com",
+  "topic": "enterprise",
+  "message": "Testing ticket receipt generation",
+  "targetSupportAddress": "duplexinterface@outlook.com",
+  "status": "dispatched_to_edge",
+  "ip": "127.0.0.1"
+}
